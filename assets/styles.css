@@ -1,0 +1,111 @@
+/* Global */
+html {
+    height: 100%;
+}
+
+/* typography */
+html {
+    font-size: 16px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p,
+input,
+button,
+label {
+    font-size: 1.5rem;
+}
+
+
+/* Primary Styles */
+body {
+    background-color: gray;
+    background-image: linear-gradient(45deg,red, yellow, green);
+    color: purple;
+  }
+  
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: min(100vw, 450px);
+    border: 2px solid purple;
+    border-radius: 1.25rem;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+label {
+    margin-bottom: 1.5rem;
+}
+
+#check-btn, 
+#text-input{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid purple;
+    padding: 0.25rem;
+    margin-left: .5rem;
+    border-radius: .5rem;
+}
+
+#text-input {
+    margin-left: none;
+    background-color: white;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: purple;
+  }
+
+.answer-bolded {
+    font-weight: bold;
+}
+
+.description-section {
+    border: 2px solid purple;
+    border-radius: 1.25rem;
+}
+
+.description-section{
+    vertical-align: middle;
+    text-align: center;
+    padding: .5rem;
+    width: 75vw;
+}
+
+p>span {
+    font-style: italic;
+    /* padding-right: 5px;
+    padding-left: 5px;
+    width: auto; */
+}
